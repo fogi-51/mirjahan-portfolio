@@ -62,7 +62,7 @@ export async function POST(request: Request) {
   }
 
   const from = process.env.RESEND_FROM_EMAIL || "Portfolio <onboarding@resend.dev>";
-  const to = (process.env.CONTACT_TO_EMAIL || "mirjahan@fogi.co.in")
+  const to = (process.env.CONTACT_TO_EMAIL || "mirjahan@ovowpp.online")
     .split(",")
     .map((addr) => addr.trim())
     .filter(Boolean);
